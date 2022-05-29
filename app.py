@@ -4,7 +4,6 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
 import os
-os.chdir("/content/")
 from model import predict
 import numpy as np
 
