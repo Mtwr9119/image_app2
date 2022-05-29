@@ -1,12 +1,11 @@
 # 以下を「app.py」に書き込み
-!pip install wheel
+#!pip install wheel
 import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
 import os
 os.chdir("/content/")
 from model import predict
-from PIL import Image
 import numpy as np
 
 
